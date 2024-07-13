@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="box" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox prefHeight="21.0" prefWidth="700.0">
+            <children>
+                <Label text="From:">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Italic" size="15.0" />
+                    </font>
+                </Label>
+                <Label fx:id="sender" prefHeight="21.0" prefWidth="508.0" text="Sender">
+                    <font>
+                        <Font name="System Italic" size="15.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="3.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+        </HBox>
+        <HBox prefHeight="25.0" prefWidth="700.0">
+            <children>
+                <Label fx:id="title" alignment="TOP_LEFT" prefHeight="21.0" prefWidth="651.0" text="Label">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="20.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+        </HBox>
+    </children>
+</VBox>
